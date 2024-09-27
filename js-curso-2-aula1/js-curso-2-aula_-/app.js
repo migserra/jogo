@@ -6,7 +6,7 @@ function mudarTudo(tag, texto){
     campo.innerHTML = texto;
     responsiveVoice.speak(texto, 'Brazilian Portuguese Female', {rate:1.2});
 }
-mudarTudo('h1', 'arrombadinho junior')
+mudarTudo('h1', 'joguinho boiola')
 mudarTudo('p', 'escolhe ai um numero entre 1 e 10')
 
 function verificarChute(){
